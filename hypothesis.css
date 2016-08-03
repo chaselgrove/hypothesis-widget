@@ -1,0 +1,12 @@
+/* See file COPYING distributed with hypothesis-widget for 
+   copyright and license. */
+
+div.hypothesis-feed {
+    border: 1px solid #000;
+}
+
+div.hypothesis-feed div.item + div.item {
+    margin-top: 1em;
+}
+
+/* eof */

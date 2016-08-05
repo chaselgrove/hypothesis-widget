@@ -1,12 +1,38 @@
 /* See file COPYING distributed with hypothesis-widget for 
    copyright and license. */
 
+/* ----- elements that are part of the widget ----- */
+
 div.hypothesis-feed {
-    border: 1px solid #000;
+}
+
+div.hypothesis-feed div.item {
+}
+
+div.hypothesis-feed div.date {
+}
+
+div.hypothesis-feed div.text {
 }
 
 div.hypothesis-feed div.item + div.item {
     margin-top: 1em;
+}
+
+/* ----- elements specific to example.html ----- */
+
+div.feed-container {
+    border: 1px solid #000;
+    padding: 0;
+    width: 400px;
+}
+
+div.feed-container h2 {
+    margin: 0;
+}
+
+div.feed-container h2 + div {
+    padding-bottom: 1em;
 }
 
 /* eof */
